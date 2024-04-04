@@ -1,18 +1,20 @@
-/* Header Styles */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px;
-  background-color: #6967e7;
+  background-color: #1f65e7; /* Adjusted background color */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-/* logo image color #020064 */
+
+/* Logo Styles */
 .logo img {
   width: 120px;
   height: 80px;
+  filter: brightness(0.6); /* Adjusted brightness for the logo */
 }
 
+/* Navigation Styles */
 nav ul {
   list-style: none;
   display: flex;
@@ -32,5 +34,5 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #f800ae;
+  color: #ff6347; /* Adjusted hover color */
 }
